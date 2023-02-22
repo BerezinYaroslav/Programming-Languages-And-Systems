@@ -12,6 +12,7 @@ def find_dividers_count(number):
     return count
 
 
+# решил попробоать написать свой метод сортировки, вроде работает :)))
 def insertion_sort(array):
     for i in range(1, len(array)):
         temp = array[i]
